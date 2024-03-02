@@ -6,7 +6,7 @@ Portfolio
 
 # [Project 2: Space Mission Analysis](https://nbviewer.org/github/halikowski/Space-Missions-Project/blob/main/Space_Missions_Analysis.ipynb)
   Cleaning and analysis of a space missions dataset. This dataset contains space mission data for years 1957-2020, including the 'Cold War' between USA and USSR. It is my first         professional project, done solely by me, as a beiginning of Data Engineering and Data Science journey.
-  ![](https://github.com/halikowski/portfolio/blob/main/images/space1.png =700x250)
+  ![](https://github.com/halikowski/portfolio/blob/main/images/space1.png | width=250)
   ![](https://github.com/halikowski/portfolio/blob/main/images/space2.png =400x250)
   ![](https://github.com/halikowski/portfolio/blob/main/images/space3.png =250x250)
   
