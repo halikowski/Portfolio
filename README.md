@@ -10,7 +10,7 @@
   <img src="./images/space3.png" width=170>
   
 # [Project 3: US Fatal Shootings](https://nbviewer.org/github/halikowski/US_Shootings_Project/blob/main/US_Fatal_Shootings.ipynb)
-  A data exploratory and analysis project focused on data set of fatal police shootings across the years 2015-2017. Not only this analyses the shooting victims' directly, but also      separate files like US, but also data sets representing aspects like poverty, schooling or race distribution. Analysis has been done using Python and it's packages.
+  A data exploratory and analysis project focused on data set of fatal police shootings in US across the years 2015-2017. Not only this analyses the shooting victims' directly, but     also separate files representing aspects like poverty, schooling or race distribution. Analysis has been done using Python and it's packages.
 
   <p float="left">
   <img src="./images/fatal1.png" width=250>
