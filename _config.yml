@@ -1,1 +1,3 @@
+url: 'https://halikowski.github.io/' # your main domain
+baseurl: ''
 theme: jekyll-theme-minimal
