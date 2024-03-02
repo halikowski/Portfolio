@@ -5,15 +5,15 @@
 
 # [Project 2: Space Mission Analysis](https://nbviewer.org/github/halikowski/Space-Missions-Project/blob/main/Space_Missions_Analysis.ipynb)
   Cleaning and analysis of a space missions dataset. This dataset contains space mission data for years 1957-2020, including the 'Cold War' between USA and USSR. It is my first         professional project, done solely by me, as a beiginning of Data Engineering and Data Science journey.
-  <img src="./images/space1.png" width=550>
-  <img src="./images/space2.png" width=300>
-  <img src="./images/space3.png" width=250>
+  <img src="./images/space1.png" width=400>
+  <img src="./images/space2.png" width=320>
+  <img src="./images/space3.png" width=170>
   
 # [Project 3: US Fatal Shootings](https://nbviewer.org/github/halikowski/US_Shootings_Project/blob/main/US_Fatal_Shootings.ipynb)
   A data exploratory and analysis project focused on data set of fatal police shootings across the years 2015-2017. Not only this analyses the shooting victims' directly, but also      separate files like US, but also data sets representing aspects like poverty, schooling or race distribution. Analysis has been done using Python and it's packages.
 
   <p float="left">
   <img src="./images/fatal1.png" width=250>
-  <img src="./images/fatal2.PNG" width=250>
-  <img src="./images/fatal3.PNG" width=250>
+  <img src="./images/fatal2.PNG" width=230>
+  <img src="./images/fatal3.PNG" width=260>
   </p>
