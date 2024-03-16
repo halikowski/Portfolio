@@ -2,12 +2,16 @@
 
 # [Project 4: Flights ETL Pipeline](https://github.com/halikowski/FlightsETL)
   An ETL pipeline project for flights data from Wrocław,Poland (WRO / EPWR) airport to many chosen European countries. Both departure airport and destination countries list are       fully customizable in config.py file. Final output is three data frames loaded as separate .csv files.
+  <br>
   Apache Airflow implementation is added, allowing for scheduling and automating this pipeline.
+  <br>
   Stack:
-    - Pandas
-    - Requests
-    - BeautifulSoup
-    - Apache Airflow
+  <<ul>
+    <li>- Pandas </li>
+    <li>- Requests </li>
+    <li>- BeautifulSoup </li>
+    <li>- Apache Airflow </li>
+  </ul>
 
   <img src="./images/flight.jpg" width=300>
 
