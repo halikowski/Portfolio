@@ -9,7 +9,7 @@
     - BeautifulSoup
     - Apache Airflow
 
-  <img src="./images/flight.jpg" width=500>
+  <img src="./images/flight.jpg" width=300>
 
 # [Project 3: US Fatal Shootings](https://nbviewer.org/github/halikowski/US_Shootings_Project/blob/main/US_Fatal_Shootings.ipynb)
   A data exploratory and analysis project focused on data set of fatal police shootings in US across the years 2015-2017. Not only this analyses the shooting victims' directly, but     also separate files representing aspects like poverty, schooling or race distribution. Analysis has been done using Python and it's packages.
