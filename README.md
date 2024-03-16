@@ -6,11 +6,11 @@
   Apache Airflow implementation is added, allowing for scheduling and automating this pipeline.
   <br>
   Stack:
-  <<ul>
-    <li>- Pandas </li>
-    <li>- Requests </li>
-    <li>- BeautifulSoup </li>
-    <li>- Apache Airflow </li>
+  <ul>
+    <li>Pandas </li>
+    <li>Requests </li>
+    <li>BeautifulSoup </li>
+    <li>Apache Airflow </li>
   </ul>
 
   <img src="./images/flight.jpg" width=300>
