@@ -1,5 +1,25 @@
 # Mateusz Halikowski
 
+# [Project 5: Real-Time Cryptocurrency ETL Pipeline](https://github.com/halikowski/CryptoETL)
+  This is a real-time cloud ETL project for cryptocurrency data using CoinPaprika API.
+
+- What are the newest cryptocurrencies released?
+- Which crytocurrencies seem to be bullish in the recent minutes or hours?
+- Which of them are facing so called close-calls with ATHs(All Time High values) and which of them have just hit a new one recently?
+
+These and many more questions could have been answered using this automated real-time ETL pipeline.
+This project incorporates Azure Blob Storage as a direct ingestion place for response from API and Snowflake SnowPipe for ingestion into Snowflake cloud and further manipulations. Azure Storage Queue & Event hubs were used to set up the SnowPipe.
+
+Additionally, Azure Event Grid Viewer is set for obtaining notifications regarding any warnings or errors during snowflake tasks processing.
+
+Finally, a basic data visualization dashboard is created in Snowflake, showing most important data by hand.
+
+The final, consumption-ready stage offers 3 tables - fact table FACT_COIN and 2 related dimension tables DIM_MARKET and DIM_COIN_DETAILS.
+
+  Stack: Python / Apache Airflow / Azure Storage & Events / Snowflake 
+
+  <img src="./images/cryptocurrency.png" width=300>
+
 # [Project 4: Flights ETL Pipeline](https://github.com/halikowski/FlightsETL)
   An ETL pipeline project for flights data from Wrocław,Poland (WRO / EPWR) airport to many chosen European countries. Both departure airport and destination countries list are       fully customizable in config.py file. Final output is three data frames loaded as separate .csv files.
   <br>
