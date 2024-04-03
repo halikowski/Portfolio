@@ -3,3 +3,6 @@ baseurl: 'Portfolio/'
 theme: jekyll-theme-minimal
 title: Mateusz Halikowski - Portfolio
 description: Welcome to my portfolio page! Here You can see my recent works in the Data Engineering field. Learning new stuff day by day.
+logo: https://media.licdn.com/dms/image/D4D03AQFxVvZaTxqxNg/profile-displayphoto-shrink_800_800/0/1709024330126?e=1717632000&v=beta&t=xHe-sQySkDafjfIhHSFH5G6hn4hQKVstsmJUUtrTv-k
+google_analytics: G-5V4FYF672X
+show_downloads: false
