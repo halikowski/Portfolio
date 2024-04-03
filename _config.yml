@@ -1,3 +1,5 @@
 url: 'https://halikowski.github.io/' # your main domain
 baseurl: 'Portfolio/'
 theme: jekyll-theme-minimal
+title: Mateusz Halikowski - Portfolio
+description: Welcome to my portfolio page! Here You can see my recent works in the Data Engineering field. Learning new stuff day by day.
