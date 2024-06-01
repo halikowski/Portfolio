@@ -1,5 +1,23 @@
 # Mateusz Halikowski
 
+# [Project 5: Automated ETL + Visualization - Swiss Transport](https://github.com/halikowski/SwissTransport)
+  This is a Data Engineering project containing both web automation processes and an ETL workflow. Also a few dashboards to top it out. As a person highly interested and connected with transport and travel, i started searching for this topic related project opportunities and found an interesting open data platform - Swiss Transport.  
+  
+  This project consists of fully automated ETL workflow with following stages:  
+- Scheduled download and processing of total 12 data files with various formats (.csv, .xlsx, .json) - using Selenium
+- File downloads are divided into 4 separate frequencies: daily, weekly, monthly, yearly - depending on data type and data source update frequency
+- Automated file ingestion to Snowflake via SnowSQL, right after file is successfully processed
+- Transformations & Final tables output using Snowpark
+- All that scheduled in Airflow (5 different DAGs), running on a Docker container.
+- Consumption-ready data is analyzed in Qlik Sense sheets (using Snowflake connection) - with 3 separate Dashboards as an output.
+
+  [PDF Project Overview](https://github.com/halikowski/SwissTransport/blob/master/SWISS_TRANSPORT-Overview.pdf)
+
+<p float="left">
+  <img src="./images/SWISS_TRANSPORT - ERD.png" width=250>
+  <img src="./images/dashboard.png" width=230>
+  </p>
+  
 # [Project 5: Real-Time Cryptocurrency ETL Pipeline](https://github.com/halikowski/CryptoETL)
   This is a real-time cloud ETL project for cryptocurrency data using CoinPaprika API.
 
@@ -10,15 +28,13 @@
 These and many more questions could have been answered using this automated real-time ETL pipeline.
 This project incorporates Azure Blob Storage as a direct ingestion place for response from API and Snowflake SnowPipe for ingestion into Snowflake cloud and further manipulations. Azure Storage Queue & Event hubs were used to set up the SnowPipe.
 
-Additionally, Azure Event Grid Viewer is set for obtaining notifications regarding any warnings or errors during snowflake tasks processing.
-
-Finally, a basic data visualization dashboard is created in Snowflake, showing most important data by hand.
-
-The final, consumption-ready stage offers 3 tables - fact table FACT_COIN and 2 related dimension tables DIM_MARKET and DIM_COIN_DETAILS.
+Additionally, Azure Event Grid Viewer is set for obtaining notifications regarding any warnings or errors during snowflake tasks processing.  
+Finally, a basic data visualization dashboard is created in Snowflake, showing most important data by hand.  
+The final, consumption-ready stage offers 3 tables - fact table FACT_COIN and 2 related dimension tables DIM_MARKET and DIM_COIN_DETAILS.  
 
   Stack: Python / Apache Airflow / Azure Storage & Events / Snowflake 
 
-  <img src="./images/cryptocurrency.png" width=300>
+  <img src="./images/cryptocurrency.png" width=250>
 
 # [Project 4: Flights ETL Pipeline](https://github.com/halikowski/FlightsETL)
   An ETL pipeline project for flights data from Wrocław,Poland (WRO / EPWR) airport to many chosen European countries. Both departure airport and destination countries list are       fully customizable in config.py file. Final output is three data frames loaded as separate .csv files.
