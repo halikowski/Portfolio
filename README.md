@@ -14,8 +14,8 @@
   [PDF Project Overview](https://github.com/halikowski/SwissTransport/blob/master/SWISS_TRANSPORT-Overview.pdf)
 
 <p float="left">
-  <img src="./images/SWISS_TRANSPORT - ERD.png" width=250>
-  <img src="./images/dashboard.png" width=230>
+  <img src="./images/SWISS_TRANSPORT - ERD.png" width=300>
+  <img src="./images/dashboard.png" width=300>
   </p>
   
 # [Project 5: Real-Time Cryptocurrency ETL Pipeline](https://github.com/halikowski/CryptoETL)
