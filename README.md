@@ -10,6 +10,8 @@ Resources & features used in this project:
 - Azure DevOps
 - Other common resources like Data Lake
 
+<img src="./images/RebrickablePipeline.png" width=300>
+
 # [Project 6: Automated ETL + Visualization - Swiss Transport](https://github.com/halikowski/SwissTransport)
   This is a Data Engineering project containing both web automation processes and an ETL workflow. Also a few dashboards to top it out. As a person highly interested and connected with transport and travel, i started searching for this topic related project opportunities and found an interesting open data platform - Swiss Transport.  
   
