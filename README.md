@@ -1,7 +1,7 @@
 # Mateusz Halikowski
 
 # [Project 7: Dynamic Azure Data Factory pipeline with CI/CD](https://github.com/halikowski/Azure-Rebrickable/blob/main/Azure_dynamic_pipeline_with_CICD.pdf)
-  This project focuses on building a dynamic, scalable pipeline in Azure Data Factory together with the incorporation of **CI/CD in Azure DevOps**. Data used in this project comes from the [Rebrickable website](https://rebrickable.com/home/), which provides numerous files updated daily, ready for download, and also an API. Both names & number of files are customizable by JSON file in data lake. The same applies for the API files – for this purpose, two user accounts have been created to mimic a custom user-database, on base which we query data of user’s Lego sets, parts, etc.
+  This project focuses on building a dynamic, scalable pipeline in Azure Data Factory together with the incorporation of **CI/CD in Azure DevOps**. Data used in this project comes from the [Rebrickable website](https://rebrickable.com/home/), which provides numerous files updated daily, ready for download, and also an API. Both names & number of files are customizable by JSON file in data lake. The same applies for the API files – for this purpose, 2 user accounts have been created to mimic a custom user-database, on base which we query data of user’s Lego sets, parts, etc.
 
 Resources & features used in this project:
 - **Azure Data Factory**
@@ -44,9 +44,12 @@ Additionally, **Azure Event Grid Viewer** is set for obtaining notifications reg
 Finally, a basic data visualization dashboard is created in Snowflake, showing most important data by hand.  
 The final, consumption-ready stage offers 3 tables - fact table FACT_COIN and 2 related dimension tables DIM_MARKET and DIM_COIN_DETAILS.  
 
-  Stack: Python / Apache Airflow / Azure Storage & Events / Snowflake 
+  Stack: **Python / Apache Airflow / Azure Storage & Events / Snowflake** 
 
+  <p float="left">
   <img src="./images/cryptocurrency.png" width=200>
+  <img src="./images/Crypto_ETL.png" width=300>
+  </p>
 
 # [Project 4: Flights ETL Pipeline](https://github.com/halikowski/FlightsETL)
   An ETL pipeline project for flights data from Wrocław,Poland (WRO / EPWR) airport to many chosen European countries. Both departure airport and destination countries list are       fully customizable in config.py file. Final output is three data frames loaded as separate .csv files.
