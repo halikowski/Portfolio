@@ -1,7 +1,6 @@
 # Mateusz Halikowski
 # [Project 8: Pollution in Poland - Snowflake ETL & Streamlit App](https://github.com/halikowski/PolishPollution)
-  This is a data engineering project **currently in development**.
-It aims for creating a **Streamlit** app, preceded by utilizing **Snowflake** tools like **Dynamic Tables**, **Stored Procedures** and **SnowPipes**.
+  This project aims for creating a **Streamlit** app, preceded by utilizing **Snowflake** tools like **Dynamic Tables**, **Stored Procedures** and **SnowPipes**.
 Project is focused on air pollution, weather conditions and population data for cities over 100k population in Poland.
 It could obviously be used for larger list of locations and/or different population criteria - once higher API subscription is provided.
 
@@ -10,6 +9,12 @@ Tech stack:
 - **AWS S3**
 - **GitHub Actions**
 - **Streamlit**
+
+<p float="left">
+  <img src="./images/PolishPollution-Workflow.png" width=300>
+  <img src="./images/streamlit.png" width=300>
+</p>
+<img src="./images/dynamictables.png" width=500>
 
 # [Project 7: Dynamic Azure Data Factory pipeline with CI/CD](https://github.com/halikowski/Azure-Rebrickable/blob/main/Azure_dynamic_pipeline_with_CICD.pdf)
   This project focuses on building a dynamic, scalable pipeline in Azure Data Factory together with the incorporation of **CI/CD in Azure DevOps**. Data used in this project comes from the [Rebrickable website](https://rebrickable.com/home/), which provides numerous files updated daily, ready for download, and also an API. Both names & number of files are customizable by JSON file in data lake. The same applies for the API files – for this purpose, 2 user accounts have been created to mimic a custom user-database, on base which we query data of user’s Lego sets, parts, etc.
@@ -36,7 +41,7 @@ Resources & features used in this project:
 
   [PDF Project Overview](https://github.com/halikowski/SwissTransport/blob/master/SWISS_TRANSPORT-Overview.pdf)
 
-<p float="left">
+
   <img src="./images/SWISS_TRANSPORT - ERD.png" width=400>
   <img src="./images/dashboard.png" width=520>
   </p>
